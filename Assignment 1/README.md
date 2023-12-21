@@ -1,5 +1,29 @@
 # CIS 3090 Assignment 1
 
+## How to run:
+
+1. Open the folder / files in an IDE and run:
+```
+make
+```
+This command will create three programs: ray, data, and task.<br/>
+**ray** - The serial version.<br/>
+**data** - The data parallelism version.<br/>
+**task** - The task parallelism version.<br/><br/>
+2. To run the program, use one of the following commands:
+  - To run the SERIAL version, run:
+    ```
+    ./ray.c <-i iterations> <-cube | -points #>
+    ```
+  - To run the DATA PARALLELISM version, run:
+    ```
+    ./data.c <-i iterations> <-cube | -points #>
+    ```
+  - To run the TASK PARALLELISM version, run:
+    ```
+    ./task.c <-i iterations> <-cube | -points #>
+    ```
+
 ## Assignment Description:
 Add Pthreads to a ray tracing program to implement two common forms of parallel algorithms.
 
@@ -121,27 +145,3 @@ The code to create the output file is not within the timed section of
 the program. Do not move the code which writes the output file into the
 timing tests.  It will not benefit from the use of threads and may mask
 the performance improvements achieved through their use.
-
-## How to run:
-
-1. Open the folder / files in an IDE and run:
-```
-make
-```
-This command will create three programs: ray, data, and task.<br/>
-**ray** - The serial version.<br/>
-**data** - The data parallelism version.<br/>
-**task** - The task parallelism version.<br/><br/>
-2. To run the program, use one of the following commands:
-  - To run the SERIAL version, run:
-    ```
-    ./ray.c <-i iterations> <-cube | -points #>
-    ```
-  - To run the DATA PARALLELISM version, run:
-    ```
-    ./data.c <-i iterations> <-cube | -points #>
-    ```
-  - To run the TASK PARALLELISM version, run:
-    ```
-    ./task.c <-i iterations> <-cube | -points #>
-    ```
