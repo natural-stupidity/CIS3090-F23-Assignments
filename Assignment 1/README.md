@@ -13,15 +13,15 @@ This command will create three programs: ray, data, and task.<br/>
 2. To run the program, use one of the following commands:
   - To run the SERIAL version, run:
     ```
-    ./ray.c <-i iterations> <-cube | -points #>
+    ./ray <-i iterations> <-cube | -points #>
     ```
   - To run the DATA PARALLELISM version, run:
     ```
-    ./data.c <-i iterations> <-cube | -points #>
+    ./data <-i iterations> <-cube | -points #>
     ```
   - To run the TASK PARALLELISM version, run:
     ```
-    ./task.c <-i iterations> <-cube | -points #>
+    ./task <-i iterations> <-cube | -points #>
     ```
 
 ## Assignment Description:
