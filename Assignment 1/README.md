@@ -11,15 +11,15 @@ This command will create three programs: ray, data, and task.
   - **data:** The data parallelism version.
   - **task:** The task parallelism version.
 2. To run the program, use one of the following commands:
-  - To run the SERIAL version, run:
+  - To run the SERIAL version:
     ```
     ./ray <-i iterations> <-cube | -points #>
     ```
-  - To run the DATA PARALLELISM version, run:
+  - To run the DATA PARALLELISM version:
     ```
     ./data <-i iterations> <-cube | -points #>
     ```
-  - To run the TASK PARALLELISM version, run:
+  - To run the TASK PARALLELISM version:
     ```
     ./task <-i iterations> <-cube | -points #>
     ```
