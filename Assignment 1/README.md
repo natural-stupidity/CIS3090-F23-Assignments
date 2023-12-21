@@ -6,10 +6,10 @@
 ```
 make
 ```
-This command will create three programs: ray, data, and task.<br/>
-**ray** - The serial version.<br/>
-**data** - The data parallelism version.<br/>
-**task** - The task parallelism version.<br/><br/>
+This command will create three programs: ray, data, and task.
+  - **ray:** The serial version.
+  - **data:** The data parallelism version.
+  - **task:** The task parallelism version.
 2. To run the program, use one of the following commands:
   - To run the SERIAL version, run:
     ```
