@@ -51,8 +51,7 @@ time the screen is updated.
 There are other data structures in the program which you can modify if
 you wish.
 
-The starting code for the assignment is on Courselink.
-The executable is named graphics and it shows the algorithm running with a
+The starting code creates an executable named graphics and it shows the algorithm running with a
 text based display. You should see the points rotating when running
 this program.
 
