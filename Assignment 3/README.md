@@ -36,8 +36,6 @@ Complete the sample code provided and implement the three rules for a Boids syst
 Once the program is working in serial, add the OpenMP directives to allow it to
 run in parallel. 
 
-Sample code is available on Courselink which contains boids.c and a makefile which will compile
-the graphical version of the program (boids) and the non-graphical version (boidsomp). 
 The sample code will compile and run but it is not work correctly.  Add the code and
 the OpenMP directives in the locations that are commented in the boids.c file. Also add code
 to time the execution of the parallel code in the main routine. 
